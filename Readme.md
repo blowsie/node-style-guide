@@ -270,7 +270,7 @@ the triple equality operator as it will work just as expected.
 
 ```js
 var a = 0;
-if (a !== '') {
+if (a === '') {
   console.log('winning');
 }
 
